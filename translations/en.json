@@ -1,0 +1,10 @@
+{
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "welcome": "Welcome to my website",
+    "description": "This is a simple internationalized website using i18next.",
+    "intro": "Explore the content and change the language using the dropdown below."
+  }
+  

@@ -1,0 +1,129 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 10px 20px;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #c579a3; /* Primary color */
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #c579a3; /* Primary color */
+  }
+  
+  /* Language Selector */
+  .language-switcher {
+    position: relative;
+  }
+  
+  .language-switcher select {
+    padding: 8px;
+    font-size: 1rem;
+    border: 2px solid #c579a3; /* Primary color */
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .language-switcher select:focus {
+    border-color: #c579a3; /* Primary color */
+  }
+  
+  /* Menu Icon */
+  .menu-icon {
+    display: none;
+    font-size: 2rem;
+    color: #c579a3; /* Primary color */
+    cursor: pointer;
+  }
+  
+  /* Main Content */
+  header {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #c579a3; /* Primary color */
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  section {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  section p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+  
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    header p, section p {
+      font-size: 1rem;
+    }
+  
+    .language-switcher select {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+  

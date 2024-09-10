@@ -1,0 +1,10 @@
+{
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "contact": "Contact",
+    "welcome": "Bienvenue sur mon site Web",
+    "description": "Ceci est un site Web internationalisé simple utilisant i18next.",
+    "intro": "Explorez le contenu et changez la langue à l'aide du menu déroulant ci-dessous."
+  }
+  
